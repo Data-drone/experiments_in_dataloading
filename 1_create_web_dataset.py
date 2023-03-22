@@ -53,6 +53,9 @@ dbutils.fs.mkdirs(dbfs_path)
 
 # COMMAND ----------
 
+# TODO - We should try to use the binary from the delta file and not
+# pull the raw
+
 # define a function to save a partition as a WebDataset
 def save_partition_webdataset(iter, output_path):
     
