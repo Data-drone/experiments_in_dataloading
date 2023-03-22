@@ -42,8 +42,7 @@ extensions = '*.parquet'
 # An existing test file
 
 # we need to find a parquet file
-
-# we shouldn't do this and should use a manifest file instead
+# we shouldn't do this and should use a manifest file instead since this is a delta table
 dataset = glob.glob(extensions)
 
 
